@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.server.session.WebSessionIntegrationTests" tests="20" skipped="0" failures="0" errors="0" timestamp="2023-09-21T20:31:59" hostname="DESKTOP" time="4.113">
+  <properties/>
+  <testcase name="[1] Jetty" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.043"/>
+  <testcase name="[2] Reactor Netty" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.006"/>
+  <testcase name="[3] Tomcat" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.545"/>
+  <testcase name="[4] Undertow" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="1.048"/>
+  <testcase name="[1] Jetty" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.052"/>
+  <testcase name="[2] Reactor Netty" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.005"/>
+  <testcase name="[3] Tomcat" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.503"/>
+  <testcase name="[4] Undertow" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.044"/>
+  <testcase name="[1] Jetty" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.068"/>
+  <testcase name="[2] Reactor Netty" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.005"/>
+  <testcase name="[3] Tomcat" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.439"/>
+  <testcase name="[4] Undertow" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.065"/>
+  <testcase name="[1] Jetty" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.047"/>
+  <testcase name="[2] Reactor Netty" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.006"/>
+  <testcase name="[3] Tomcat" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.507"/>
+  <testcase name="[4] Undertow" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.122"/>
+  <testcase name="[1] Jetty" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.086"/>
+  <testcase name="[2] Reactor Netty" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.007"/>
+  <testcase name="[3] Tomcat" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.418"/>
+  <testcase name="[4] Undertow" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.049"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Sep 21, 2023 4:31:59 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Sep 21, 2023 4:31:59 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.78]
+Sep 21, 2023 4:31:59 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-11"]
+Sep 21, 2023 4:31:59 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-11-51430"]
+Sep 21, 2023 4:32:00 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-11-51430"]
+Sep 21, 2023 4:32:00 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Sep 21, 2023 4:32:00 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-11-51430"]
+Sep 21, 2023 4:32:00 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-11-51430"]
+Sep 21, 2023 4:32:01 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Sep 21, 2023 4:32:01 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.78]
+Sep 21, 2023 4:32:01 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-12"]
+Sep 21, 2023 4:32:01 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-12-51778"]
+Sep 21, 2023 4:32:01 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-12-51778"]
+Sep 21, 2023 4:32:02 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Sep 21, 2023 4:32:02 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-12-51778"]
+Sep 21, 2023 4:32:02 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-12-51778"]
+Sep 21, 2023 4:32:02 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Sep 21, 2023 4:32:02 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.78]
+Sep 21, 2023 4:32:02 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-13"]
+Sep 21, 2023 4:32:02 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-13-52091"]
+Sep 21, 2023 4:32:02 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-13-52091"]
+Sep 21, 2023 4:32:02 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Sep 21, 2023 4:32:02 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-13-52091"]
+Sep 21, 2023 4:32:02 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-13-52091"]
+Sep 21, 2023 4:32:02 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Sep 21, 2023 4:32:02 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.78]
+Sep 21, 2023 4:32:02 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-14"]
+Sep 21, 2023 4:32:02 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-14-52235"]
+Sep 21, 2023 4:32:02 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-14-52235"]
+Sep 21, 2023 4:32:03 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Sep 21, 2023 4:32:03 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-14-52235"]
+Sep 21, 2023 4:32:03 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-14-52235"]
+Sep 21, 2023 4:32:03 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Sep 21, 2023 4:32:03 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.78]
+Sep 21, 2023 4:32:03 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-15"]
+Sep 21, 2023 4:32:03 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-15-52373"]
+Sep 21, 2023 4:32:03 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-15-52373"]
+Sep 21, 2023 4:32:03 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Sep 21, 2023 4:32:03 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-15-52373"]
+Sep 21, 2023 4:32:03 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-15-52373"]
+]]></system-err>
+</testsuite>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.client.InterceptingStreamingHttpComponentsTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-09-21T20:31:17" hostname="DESKTOP" time="0.019">
+  <properties/>
+  <testcase name="headersAfterExecute()" classname="org.springframework.http.client.InterceptingStreamingHttpComponentsTests" time="0.004"/>
+  <testcase name="status()" classname="org.springframework.http.client.InterceptingStreamingHttpComponentsTests" time="0.003"/>
+  <testcase name="echo()" classname="org.springframework.http.client.InterceptingStreamingHttpComponentsTests" time="0.003"/>
+  <testcase name="multipleWrites()" classname="org.springframework.http.client.InterceptingStreamingHttpComponentsTests" time="0.003"/>
+  <testcase name="queryParameters()" classname="org.springframework.http.client.InterceptingStreamingHttpComponentsTests" time="0.003"/>
+  <testcase name="httpMethods()" classname="org.springframework.http.client.InterceptingStreamingHttpComponentsTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Sep 21, 2023 4:31:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[56719] starting to accept connections
+Sep 21, 2023 4:31:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[56719] received request: POST /status/ok HTTP/1.1 and responded: HTTP/1.1 200 OK
+Sep 21, 2023 4:31:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[56719] done accepting connections: socket closed
+Sep 21, 2023 4:31:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[56721] starting to accept connections
+Sep 21, 2023 4:31:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[56721] received request: GET /status/notfound HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Sep 21, 2023 4:31:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[56721] done accepting connections: socket closed
+Sep 21, 2023 4:31:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[56723] starting to accept connections
+Sep 21, 2023 4:31:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[56723] received request: PUT /echo HTTP/1.1 and responded: HTTP/1.1 200 OK
+Sep 21, 2023 4:31:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[56723] done accepting connections: socket closed
+Sep 21, 2023 4:31:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[56725] starting to accept connections
+Sep 21, 2023 4:31:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[56725] received request: POST /echo HTTP/1.1 and responded: HTTP/1.1 200 OK
+Sep 21, 2023 4:31:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[56725] done accepting connections: socket closed
+Sep 21, 2023 4:31:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[56727] starting to accept connections
+Sep 21, 2023 4:31:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[56727] received request: GET /params?param1=value&param2=value1&param2=value2 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Sep 21, 2023 4:31:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[56727] done accepting connections: socket closed
+Sep 21, 2023 4:31:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[56729] starting to accept connections
+Sep 21, 2023 4:31:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[56729] received request: PATCH /methods/patch HTTP/1.1 and responded: HTTP/1.1 200 OK
+Sep 21, 2023 4:31:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[56729] done accepting connections: socket closed
+]]></system-err>
+</testsuite>

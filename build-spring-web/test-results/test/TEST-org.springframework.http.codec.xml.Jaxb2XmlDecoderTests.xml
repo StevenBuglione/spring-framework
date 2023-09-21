@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2023-09-21T20:31:29" hostname="DESKTOP" time="0.076">
+  <properties/>
+  <testcase name="decodeSingleXmlTypeElement()" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.042"/>
+  <testcase name="splitOneBranches()" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.019"/>
+  <testcase name="decodeMultipleXmlTypeElement()" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.003"/>
+  <testcase name="canDecode()" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.0"/>
+  <testcase name="toExpectedQName()" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.002"/>
+  <testcase name="splitMultipleBranches()" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.001"/>
+  <testcase name="decodeError()" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.0"/>
+  <testcase name="decodeErrorWithXmlNotWellFormed()" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.0"/>
+  <testcase name="decodeSingleXmlRootElement()" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.002"/>
+  <testcase name="decodeNonUtf8()" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.004"/>
+  <testcase name="decodeMultipleXmlRootElement()" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

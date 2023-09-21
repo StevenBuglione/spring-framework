@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.codec.multipart.FileStorageTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-09-21T20:31:29" hostname="DESKTOP" time="0.011">
+  <properties/>
+  <testcase name="tempDirectory()" classname="org.springframework.http.codec.multipart.FileStorageTests" time="0.005"/>
+  <testcase name="fromPath()" classname="org.springframework.http.codec.multipart.FileStorageTests" time="0.001"/>
+  <testcase name="tempDirectoryDeleted()" classname="org.springframework.http.codec.multipart.FileStorageTests" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

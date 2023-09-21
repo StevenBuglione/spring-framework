@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.context.support.ServletContextResourceTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-09-21T20:31:58" hostname="DESKTOP" time="0.063">
+  <properties/>
+  <testcase name="resourceShouldHaveExpectedProperties()" classname="org.springframework.web.context.support.ServletContextResourceTests" time="0.006"/>
+  <testcase name="resourceWithRelativePathShouldBeEqual()" classname="org.springframework.web.context.support.ServletContextResourceTests" time="0.0"/>
+  <testcase name="resourceWithDotPathShouldBeEqual()" classname="org.springframework.web.context.support.ServletContextResourceTests" time="0.0"/>
+  <testcase name="relativeResourcesShouldHaveExpectedProperties()" classname="org.springframework.web.context.support.ServletContextResourceTests" time="0.0"/>
+  <testcase name="missingResourceShouldHaveExpectedProperties()" classname="org.springframework.web.context.support.ServletContextResourceTests" time="0.056"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

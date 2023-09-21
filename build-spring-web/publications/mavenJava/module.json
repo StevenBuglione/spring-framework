@@ -1,0 +1,120 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework",
+    "module": "spring-web",
+    "version": "5.3.31-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.31-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.31-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-web-5.3.31-SNAPSHOT.jar",
+          "url": "spring-web-5.3.31-SNAPSHOT.jar",
+          "size": 1642685,
+          "sha512": "f5ca82a1e9e46d75efd6c127f0aeacb032e15eb2a5066f50191a0d9295ff102f184778bd33e800e31ee053ed85e7e735d3fa7490dce457c394f1002edd3e0843",
+          "sha256": "00fdb69101838ac6c64df584e12b79cc1f3861a882ec1022332f971f3f690c9c",
+          "sha1": "42830e145a669571749abf1c858bf3dd8df5938e",
+          "md5": "f539e01e2813033667a23c85c59de5c7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.31-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.31-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-web-5.3.31-SNAPSHOT.jar",
+          "url": "spring-web-5.3.31-SNAPSHOT.jar",
+          "size": 1642685,
+          "sha512": "f5ca82a1e9e46d75efd6c127f0aeacb032e15eb2a5066f50191a0d9295ff102f184778bd33e800e31ee053ed85e7e735d3fa7490dce457c394f1002edd3e0843",
+          "sha256": "00fdb69101838ac6c64df584e12b79cc1f3861a882ec1022332f971f3f690c9c",
+          "sha1": "42830e145a669571749abf1c858bf3dd8df5938e",
+          "md5": "f539e01e2813033667a23c85c59de5c7"
+        }
+      ]
+    }
+  ]
+}

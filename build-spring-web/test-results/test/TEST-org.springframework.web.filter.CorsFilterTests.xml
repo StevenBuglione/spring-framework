@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.filter.CorsFilterTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-09-21T20:31:58" hostname="DESKTOP" time="0.003">
+  <properties/>
+  <testcase name="sameOriginRequest()" classname="org.springframework.web.filter.CorsFilterTests" time="0.0"/>
+  <testcase name="validActualRequest()" classname="org.springframework.web.filter.CorsFilterTests" time="0.0"/>
+  <testcase name="validPreFlightRequest()" classname="org.springframework.web.filter.CorsFilterTests" time="0.0"/>
+  <testcase name="nonCorsRequest()" classname="org.springframework.web.filter.CorsFilterTests" time="0.0"/>
+  <testcase name="invalidPreFlightRequest()" classname="org.springframework.web.filter.CorsFilterTests" time="0.0"/>
+  <testcase name="invalidActualRequest()" classname="org.springframework.web.filter.CorsFilterTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

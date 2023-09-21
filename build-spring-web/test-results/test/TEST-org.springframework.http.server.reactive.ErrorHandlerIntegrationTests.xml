@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2023-09-21T20:31:37" hostname="DESKTOP" time="1.379">
+  <properties/>
+  <testcase name="[1] Jetty" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.02"/>
+  <testcase name="[2] Reactor Netty" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.01"/>
+  <testcase name="[3] Tomcat" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.338"/>
+  <testcase name="[4] Undertow" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.027"/>
+  <testcase name="[1] Jetty" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.019"/>
+  <testcase name="[2] Reactor Netty" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.005"/>
+  <testcase name="[3] Tomcat" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.384"/>
+  <testcase name="[4] Undertow" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.029"/>
+  <testcase name="[1] Jetty" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.026"/>
+  <testcase name="[2] Reactor Netty" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.006"/>
+  <testcase name="[3] Tomcat" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.479"/>
+  <testcase name="[4] Undertow" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.03"/>
+  <system-out><![CDATA[16:31:37.964 [reactor-http-nio-8] ERROR r.n.h.s.HttpServerOperations - [9daf93e6-1, L:/127.0.0.1:57866 - R:/127.0.0.1:57867] Error starting response. Replying error status
+java.lang.UnsupportedOperationException: null
+	at org.springframework.http.server.reactive.ErrorHandlerIntegrationTests$ErrorHandler.handle(ErrorHandlerIntegrationTests.java:91) ~[test/:?]
+	at org.springframework.http.server.reactive.ReactorHttpHandlerAdapter.apply(ReactorHttpHandlerAdapter.java:65) ~[spring-web-5.3.31-SNAPSHOT.jar:?]
+	at org.springframework.http.server.reactive.ReactorHttpHandlerAdapter.apply(ReactorHttpHandlerAdapter.java:40) ~[spring-web-5.3.31-SNAPSHOT.jar:?]
+	at reactor.netty.http.server.HttpServer$HttpServerHandle.onStateChange(HttpServer.java:994) [reactor-netty-http-1.0.34.jar:1.0.34]
+	at reactor.netty.transport.ServerTransport$ChildObserver.onStateChange(ServerTransport.java:481) [reactor-netty-core-1.0.34.jar:1.0.34]
+	at reactor.netty.http.server.HttpServerOperations.onInboundNext(HttpServerOperations.java:621) [reactor-netty-http-1.0.34.jar:1.0.34]
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:114) [reactor-netty-core-1.0.34.jar:1.0.34]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at reactor.netty.http.server.HttpTrafficHandler.channelRead(HttpTrafficHandler.java:230) [reactor-netty-http-1.0.34.jar:1.0.34]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) [netty-codec-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) [netty-codec-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.95.Final.jar:4.1.95.Final]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_382]
+16:31:38.358 [reactor-http-nio-10] ERROR r.n.h.s.HttpServerOperations - [385ee568-1, L:/127.0.0.1:57951 - R:/127.0.0.1:57952] Error starting response. Replying error status
+java.lang.UnsupportedOperationException: null
+	at org.springframework.http.server.reactive.ErrorHandlerIntegrationTests$ErrorHandler.handle(ErrorHandlerIntegrationTests.java:91) ~[test/:?]
+	at org.springframework.http.server.reactive.ReactorHttpHandlerAdapter.apply(ReactorHttpHandlerAdapter.java:65) ~[spring-web-5.3.31-SNAPSHOT.jar:?]
+	at org.springframework.http.server.reactive.ReactorHttpHandlerAdapter.apply(ReactorHttpHandlerAdapter.java:40) ~[spring-web-5.3.31-SNAPSHOT.jar:?]
+	at reactor.netty.http.server.HttpServer$HttpServerHandle.onStateChange(HttpServer.java:994) [reactor-netty-http-1.0.34.jar:1.0.34]
+	at reactor.netty.transport.ServerTransport$ChildObserver.onStateChange(ServerTransport.java:481) [reactor-netty-core-1.0.34.jar:1.0.34]
+	at reactor.netty.http.server.HttpServerOperations.onInboundNext(HttpServerOperations.java:621) [reactor-netty-http-1.0.34.jar:1.0.34]
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:114) [reactor-netty-core-1.0.34.jar:1.0.34]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at reactor.netty.http.server.HttpTrafficHandler.channelRead(HttpTrafficHandler.java:230) [reactor-netty-http-1.0.34.jar:1.0.34]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) [netty-codec-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) [netty-codec-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.95.Final.jar:4.1.95.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.95.Final.jar:4.1.95.Final]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_382]
+]]></system-out>
+  <system-err><![CDATA[Sep 21, 2023 4:31:37 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Sep 21, 2023 4:31:37 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.78]
+Sep 21, 2023 4:31:37 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-4"]
+Sep 21, 2023 4:31:37 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-4-57868"]
+Sep 21, 2023 4:31:37 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-4-57868"]
+Sep 21, 2023 4:31:38 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Sep 21, 2023 4:31:38 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-4-57868"]
+Sep 21, 2023 4:31:38 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-4-57868"]
+Sep 21, 2023 4:31:38 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Sep 21, 2023 4:31:38 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.78]
+Sep 21, 2023 4:31:38 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-5"]
+Sep 21, 2023 4:31:38 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-5-57953"]
+Sep 21, 2023 4:31:38 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-5-57953"]
+Sep 21, 2023 4:31:38 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Sep 21, 2023 4:31:38 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-5-57953"]
+Sep 21, 2023 4:31:38 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-5-57953"]
+Sep 21, 2023 4:31:38 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Sep 21, 2023 4:31:38 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.78]
+Sep 21, 2023 4:31:38 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-6"]
+Sep 21, 2023 4:31:38 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-6-58056"]
+Sep 21, 2023 4:31:38 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-6-58056"]
+Sep 21, 2023 4:31:39 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Sep 21, 2023 4:31:39 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-6-58056"]
+Sep 21, 2023 4:31:39 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-6-58056"]
+]]></system-err>
+</testsuite>

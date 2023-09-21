@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.codec.json.Jackson2TokenizerTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2023-09-21T20:31:28" hostname="DESKTOP" time="0.033">
+  <properties/>
+  <testcase name="jsonEOFExceptionIsWrappedAsDecodingError()" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.0"/>
+  <testcase name="[1] useBigDecimalForFloats=false" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.001"/>
+  <testcase name="[2] useBigDecimalForFloats=true" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.001"/>
+  <testcase name="errorInStream()" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.0"/>
+  <testcase name="tokenizeArrayElements()" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.016"/>
+  <testcase name="testLimit()" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.003"/>
+  <testcase name="doNotTokenizeArrayElements()" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.005"/>
+  <testcase name="testLimitTokenized()" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.003"/>
+  <testcase name="tokenizeStream()" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

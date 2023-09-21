@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.codec.support.ClientCodecConfigurerTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2023-09-21T20:31:29" hostname="DESKTOP" time="0.008">
+  <properties/>
+  <testcase name="defaultReaders()" classname="org.springframework.http.codec.support.ClientCodecConfigurerTests" time="0.001"/>
+  <testcase name="maxInMemorySize()" classname="org.springframework.http.codec.support.ClientCodecConfigurerTests" time="0.0"/>
+  <testcase name="jackson2CodecCustomization()" classname="org.springframework.http.codec.support.ClientCodecConfigurerTests" time="0.001"/>
+  <testcase name="defaultWriters()" classname="org.springframework.http.codec.support.ClientCodecConfigurerTests" time="0.0"/>
+  <testcase name="cloneShouldNotBeImpactedByChangesToOriginal()" classname="org.springframework.http.codec.support.ClientCodecConfigurerTests" time="0.0"/>
+  <testcase name="cloneShouldNotDropMultipartCodecs()" classname="org.springframework.http.codec.support.ClientCodecConfigurerTests" time="0.0"/>
+  <testcase name="enableLoggingRequestDetails()" classname="org.springframework.http.codec.support.ClientCodecConfigurerTests" time="0.001"/>
+  <testcase name="objectMapperCustomization()" classname="org.springframework.http.codec.support.ClientCodecConfigurerTests" time="0.001"/>
+  <testcase name="clonedConfigurer()" classname="org.springframework.http.codec.support.ClientCodecConfigurerTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

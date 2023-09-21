@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.client.DefaultResponseErrorHandlerHttpStatusTests" tests="32" skipped="0" failures="0" errors="0" timestamp="2023-09-21T20:31:54" hostname="DESKTOP" time="0.025">
+  <properties/>
+  <testcase name="[1] error: [400]" classname="org.springframework.web.client.DefaultResponseErrorHandlerHttpStatusTests" time="0.0"/>
+  <testcase name="[2] error: [401]" classname="org.springframework.web.client.DefaultResponseErrorHandlerHttpStatusTests" time="0.0"/>
+  <testcase name="[3] error: [403]" classname="org.springframework.web.client.DefaultResponseErrorHandlerHttpStatusTests" time="0.001"/>
+  <testcase name="[4] error: [404]" classname="org.springframework.web.client.DefaultResponseErrorHandlerHttpStatusTests" time="0.0"/>
+  <testcase name="[5] error: [405]" classname="org.springframework.web.client.DefaultResponseErrorHandlerHttpStatusTests" time="0.001"/>
+  <testcase name="[6] error: [406]" classname="org.springframework.web.client.DefaultResponseErrorHandlerHttpStatusTests" time="0.0"/>
+  <testcase name="[7] error: [409]" classname="org.springframework.web.client.DefaultResponseErrorHandlerHttpStatusTests" time="0.0"/>
+  <testcase name="[8] error: [429]" classname="org.springframework.web.client.DefaultResponseErrorHandlerHttpStatusTests" time="0.0"/>
+  <testcase name="[9] error: [422]" classname="org.springframework.web.client.DefaultResponseErrorHandlerHttpStatusTests" time="0.0"/>
+  <testcase name="[10] error: [418]" classname="org.springframework.web.client.DefaultResponseErrorHandlerHttpStatusTests" time="0.001"/>
+  <testcase name="[11] error: [500]" classname="org.springframework.web.client.DefaultResponseErrorHandlerHttpStatusTests" time="0.0"/>
+  <testcase name="[12] error: [501]" classname="org.springframework.web.client.DefaultResponseErrorHandlerHttpStatusTests" time="0.0"/>
+  <testcase name="[13] error: [502]" classname="org.springframework.web.client.DefaultResponseErrorHandlerHttpStatusTests" time="0.0"/>
+  <testcase name="[14] error: [503]" classname="org.springframework.web.client.DefaultResponseErrorHandlerHttpStatusTests" time="0.0"/>
+  <testcase name="[15] error: [504]" classname="org.springframework.web.client.DefaultResponseErrorHandlerHttpStatusTests" time="0.0"/>
+  <testcase name="[16] error: [505]" classname="org.springframework.web.client.DefaultResponseErrorHandlerHttpStatusTests" time="0.0"/>
+  <testcase name="[1] error: 400, exception: BadRequest" classname="org.springframework.web.client.DefaultResponseErrorHandlerHttpStatusTests" time="0.004"/>
+  <testcase name="[2] error: 401, exception: Unauthorized" classname="org.springframework.web.client.DefaultResponseErrorHandlerHttpStatusTests" time="0.001"/>
+  <testcase name="[3] error: 403, exception: Forbidden" classname="org.springframework.web.client.DefaultResponseErrorHandlerHttpStatusTests" time="0.001"/>
+  <testcase name="[4] error: 404, exception: NotFound" classname="org.springframework.web.client.DefaultResponseErrorHandlerHttpStatusTests" time="0.0"/>
+  <testcase name="[5] error: 405, exception: MethodNotAllowed" classname="org.springframework.web.client.DefaultResponseErrorHandlerHttpStatusTests" time="0.0"/>
+  <testcase name="[6] error: 406, exception: NotAcceptable" classname="org.springframework.web.client.DefaultResponseErrorHandlerHttpStatusTests" time="0.001"/>
+  <testcase name="[7] error: 409, exception: Conflict" classname="org.springframework.web.client.DefaultResponseErrorHandlerHttpStatusTests" time="0.0"/>
+  <testcase name="[8] error: 429, exception: TooManyRequests" classname="org.springframework.web.client.DefaultResponseErrorHandlerHttpStatusTests" time="0.0"/>
+  <testcase name="[9] error: 422, exception: UnprocessableEntity" classname="org.springframework.web.client.DefaultResponseErrorHandlerHttpStatusTests" time="0.001"/>
+  <testcase name="[10] error: 418, exception: HttpClientErrorException" classname="org.springframework.web.client.DefaultResponseErrorHandlerHttpStatusTests" time="0.001"/>
+  <testcase name="[11] error: 500, exception: InternalServerError" classname="org.springframework.web.client.DefaultResponseErrorHandlerHttpStatusTests" time="0.001"/>
+  <testcase name="[12] error: 501, exception: NotImplemented" classname="org.springframework.web.client.DefaultResponseErrorHandlerHttpStatusTests" time="0.0"/>
+  <testcase name="[13] error: 502, exception: BadGateway" classname="org.springframework.web.client.DefaultResponseErrorHandlerHttpStatusTests" time="0.0"/>
+  <testcase name="[14] error: 503, exception: ServiceUnavailable" classname="org.springframework.web.client.DefaultResponseErrorHandlerHttpStatusTests" time="0.001"/>
+  <testcase name="[15] error: 504, exception: GatewayTimeout" classname="org.springframework.web.client.DefaultResponseErrorHandlerHttpStatusTests" time="0.001"/>
+  <testcase name="[16] error: 505, exception: HttpServerErrorException" classname="org.springframework.web.client.DefaultResponseErrorHandlerHttpStatusTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
